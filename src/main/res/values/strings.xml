@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">bank-app</string>
+    <string name="autorithTExt">Вход в учетныю запись</string>
+    <string name="loginText">Введите логин</string>
+    <string name="passText">Введите пароль</string>
+    <string name="logIn">Войти</string>
+    <string name="applyTrye">Вход успешен</string>
+    <string name="applyFalse">Вход не удался, проверте введенные данные</string>
+</resources>

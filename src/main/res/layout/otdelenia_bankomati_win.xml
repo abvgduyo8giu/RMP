@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Банкоматы и отделения"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="16dp"
+        android:text="Фильтр"
+        app:cornerRadius="0dp" />
+
+    <LinearLayout
+        android:id="@+id/containerValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/containerValue"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/atmName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Название банкомата" />
+
+            <TextView
+                android:id="@+id/atmLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Местоположение банкомата" />
+
+            <TextView
+                android:id="@+id/atmStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Статус: Открыт"
+                android:textColor="@color/colorGreen" />
+
+            <TextView
+                android:id="@+id/atmTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Время открытия: 08:00"
+                android:textColor="@color/colorGray" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/containerValue"
+            android:background="#000000" />
+
+    </LinearLayout>
+</RelativeLayout>

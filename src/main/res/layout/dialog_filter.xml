@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radioGroupFilter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/radioButtonAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Все" />
+
+    <RadioButton
+        android:id="@+id/radioButtonATMWorking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Работающие банкоматы" />
+
+    <RadioButton
+        android:id="@+id/radioButtonATMNotWorking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Не работающие банкоматы" />
+
+    <RadioButton
+        android:id="@+id/radioButtonBranchWorking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Работающие отделения" />
+
+    <RadioButton
+        android:id="@+id/radioButtonBranchNotWorking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Не работающие отделения" />
+
+    <RadioButton
+        android:id="@+id/radioButtonAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="none" />
+
+</RadioGroup>
